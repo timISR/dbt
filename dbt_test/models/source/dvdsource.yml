@@ -1,7 +1,9 @@
 version: 2
 
 sources:
-  - name: dvdrental
+  - name: postgres
+    database: dvdrental
+    schema: public
     tables: 
       - name: film
       - name: inventory
