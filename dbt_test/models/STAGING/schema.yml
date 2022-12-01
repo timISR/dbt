@@ -19,3 +19,11 @@ models:
         tests:
           - unique
           - not_null
+  - name: my_own_dbt_model
+    description: "One of the gaming moments of all time"
+    columns:
+      - name: anzahl
+        description: "Anzahl der Filme"
+        tests:
+          - not_null
+          - unique
